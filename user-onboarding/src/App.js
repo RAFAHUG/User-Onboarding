@@ -46,6 +46,7 @@ function App() {
       setUsers([res.data, ...users])
     })
     .catch( err => console.log(err))
+    .finally(formValues)
   }
 
   //STEP 9 

@@ -10,8 +10,8 @@ username: yup
     .min(3, "User must be 3 characters long"),
 email: yup
     .string()
-    .email('Must be a valid email address')
-    .required('Email is required'),
+    .required('Email is required')
+    .email('Must be a valid email address'),
 password: yup
     .string()
     .required('Password is required')

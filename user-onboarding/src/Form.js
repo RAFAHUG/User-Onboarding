@@ -66,7 +66,7 @@ const Form = (props) => {
                         />
                     </label>
 
-                    <input type="submit" value="Create a new user"/>
+                    <input disabled = { username.length === 0 ? true:false} type="submit" value="Create a new user"/>
 
                 </form>
             </div>
